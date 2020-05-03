@@ -21,6 +21,7 @@ namespace PsHelloAzure.Controllers
     public class ManageController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager1;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
